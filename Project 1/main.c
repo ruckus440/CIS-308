@@ -15,11 +15,19 @@
 #include <stdlib.h>
 #include <string.h>
 
+int validateSequence (char sequence[35]) {
+    int valid = 0;
+    //alogrithm goes here
+    return valid;
+}
+
 int main(int argc, char *arg[]) {
 
     FILE *fp;
     int expressionCount;
     char *filename;
+
+
 
 
 

@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Git/308/CIS-308/Project 1/main.c
+/cygdrive/c/Git/CIS-308/Project 1/main.c
 stdio.h
+-
+stdlib.h
+-
+string.h
 -
 
