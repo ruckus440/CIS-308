@@ -12,8 +12,17 @@
 ***********************************************/
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int main() {
+int main(int argc, char *arg[]) {
+
+    FILE *fp;
+    int expressionCount;
+    char *filename;
+
+
+
     printf("Hello, World!\n");
     return 0;
 }
