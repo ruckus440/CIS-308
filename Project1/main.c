@@ -27,7 +27,7 @@ int validateSequence (char sequence[]) {
     //alogrithm goes here
     for (int i = 1; i < strlen(sequence); i++) {
         if (sequence[i] == ")" || sequence [i] == "]" || sequence[i] == "}") {
-            
+
         }
 
     }
