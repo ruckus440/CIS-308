@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Git/CIS-308/Project1/main.c
+/cygdrive/c/Git/308/CIS-308/RuckertM_L3/main.c
 stdio.h
 -
-stdlib.h
--
 string.h
+-
+ctype.h
 -
 

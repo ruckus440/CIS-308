@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/mwruc/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Git/308/CIS-308/Project1
+CMAKE_SOURCE_DIR = /cygdrive/c/Git/308/CIS-308/RuckertM_L3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Git/308/CIS-308/Project1/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Git/308/CIS-308/RuckertM_L3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Git/308/CIS-308/Project1/cmake-build-debug/CMakeFiles /cygdrive/c/Git/308/CIS-308/Project1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Git/308/CIS-308/RuckertM_L3/cmake-build-debug/CMakeFiles /cygdrive/c/Git/308/CIS-308/RuckertM_L3/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Git/308/CIS-308/Project1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Git/308/CIS-308/RuckertM_L3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project_1
+# Target rules for targets named RuckertM_L3
 
 # Build rule for target.
-Project_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Project_1
-.PHONY : Project_1
+RuckertM_L3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RuckertM_L3
+.PHONY : RuckertM_L3
 
 # fast build rule for target.
-Project_1/fast:
-	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/build
-.PHONY : Project_1/fast
+RuckertM_L3/fast:
+	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/build
+.PHONY : RuckertM_L3/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/main.c.o
+	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/main.c.i
+	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/main.c.s
+	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Project_1"
+	@echo "... RuckertM_L3"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"
