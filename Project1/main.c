@@ -11,11 +11,7 @@
  * parentheses matches that particular parentheses.  If so, the open array index is
  * decremented.  If not, the function exits and the result is printed.*
 ***********************************************/
-/**********************************************
-* Description: *
-* Input: A .txt file with an int indicating the number of sequences followed by that number of sequences. *
-* Output: Prints to the console the sequence followed by the the result of validating the sequence. *
-***********************************************/
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,6 +21,11 @@ int valid; //boolean indicator
 int checkExpression(char[]); //function declaration
 char sequence[35]; //stores the sequence read from file
 
+/**********************************************
+* Description: Validates the sequence of parentheses and prints the result. *
+* Input: Sequence of parentheses read from the text file. *
+* Output: Prints to the console the result of validating the sequence. *
+***********************************************/
 int checkExpression(char input[])
 {
     char stack[35]; //array to hold open parentheses
@@ -79,6 +80,12 @@ int checkExpression(char input[])
     return 1; //indicates true value
 }
 
+/**********************************************
+* Description: Main program driver.  Opens the file from arguments, read sequences line by line, then
+ * passes the sequence to the validation function. *
+* Input: A .txt file from arguments with an int indicating the number of sequences followed by that number of sequences. *
+* Output: Prints to the console the sequence followed by the the result of validating the sequence. *
+***********************************************/
 int main(int argc, char *argv []) {
 
     FILE *fp;
