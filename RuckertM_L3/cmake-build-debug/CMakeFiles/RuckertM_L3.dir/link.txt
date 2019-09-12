@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/RuckertM_L3.dir/main.c.o  -o RuckertM_L3.exe -Wl,--out-implib,libRuckertM_L3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.o  -o RuckertM_L3.exe -Wl,--out-implib,libRuckertM_L3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

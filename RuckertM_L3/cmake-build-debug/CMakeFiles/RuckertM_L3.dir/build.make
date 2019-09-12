@@ -57,27 +57,27 @@ include CMakeFiles/RuckertM_L3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RuckertM_L3.dir/flags.make
 
-CMakeFiles/RuckertM_L3.dir/main.c.o: CMakeFiles/RuckertM_L3.dir/flags.make
-CMakeFiles/RuckertM_L3.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/308/CIS-308/RuckertM_L3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RuckertM_L3.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RuckertM_L3.dir/main.c.o   -c /cygdrive/c/Git/308/CIS-308/RuckertM_L3/main.c
+CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.o: CMakeFiles/RuckertM_L3.dir/flags.make
+CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.o: ../RuckertM_L3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/308/CIS-308/RuckertM_L3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.o   -c /cygdrive/c/Git/308/CIS-308/RuckertM_L3/RuckertM_L3.c
 
-CMakeFiles/RuckertM_L3.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RuckertM_L3.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/308/CIS-308/RuckertM_L3/main.c > CMakeFiles/RuckertM_L3.dir/main.c.i
+CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/308/CIS-308/RuckertM_L3/RuckertM_L3.c > CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.i
 
-CMakeFiles/RuckertM_L3.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RuckertM_L3.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/308/CIS-308/RuckertM_L3/main.c -o CMakeFiles/RuckertM_L3.dir/main.c.s
+CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/308/CIS-308/RuckertM_L3/RuckertM_L3.c -o CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.s
 
 # Object files for target RuckertM_L3
 RuckertM_L3_OBJECTS = \
-"CMakeFiles/RuckertM_L3.dir/main.c.o"
+"CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.o"
 
 # External object files for target RuckertM_L3
 RuckertM_L3_EXTERNAL_OBJECTS =
 
-RuckertM_L3.exe: CMakeFiles/RuckertM_L3.dir/main.c.o
+RuckertM_L3.exe: CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.o
 RuckertM_L3.exe: CMakeFiles/RuckertM_L3.dir/build.make
 RuckertM_L3.exe: CMakeFiles/RuckertM_L3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Git/308/CIS-308/RuckertM_L3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable RuckertM_L3.exe"

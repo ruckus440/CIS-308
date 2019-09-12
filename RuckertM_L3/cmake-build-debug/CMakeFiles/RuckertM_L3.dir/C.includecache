@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Git/308/CIS-308/RuckertM_L3/main.c
+/cygdrive/c/Git/308/CIS-308/RuckertM_L3/RuckertM_L3.c
 stdio.h
 -
 string.h

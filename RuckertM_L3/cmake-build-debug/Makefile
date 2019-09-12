@@ -123,32 +123,32 @@ RuckertM_L3/fast:
 	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/build
 .PHONY : RuckertM_L3/fast
 
-main.o: main.c.o
+RuckertM_L3.o: RuckertM_L3.c.o
 
-.PHONY : main.o
+.PHONY : RuckertM_L3.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/main.c.o
-.PHONY : main.c.o
+RuckertM_L3.c.o:
+	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.o
+.PHONY : RuckertM_L3.c.o
 
-main.i: main.c.i
+RuckertM_L3.i: RuckertM_L3.c.i
 
-.PHONY : main.i
+.PHONY : RuckertM_L3.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/main.c.i
-.PHONY : main.c.i
+RuckertM_L3.c.i:
+	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.i
+.PHONY : RuckertM_L3.c.i
 
-main.s: main.c.s
+RuckertM_L3.s: RuckertM_L3.c.s
 
-.PHONY : main.s
+.PHONY : RuckertM_L3.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/main.c.s
-.PHONY : main.c.s
+RuckertM_L3.c.s:
+	$(MAKE) -f CMakeFiles/RuckertM_L3.dir/build.make CMakeFiles/RuckertM_L3.dir/RuckertM_L3.c.s
+.PHONY : RuckertM_L3.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... RuckertM_L3"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... RuckertM_L3.o"
+	@echo "... RuckertM_L3.i"
+	@echo "... RuckertM_L3.s"
 .PHONY : help
 
 

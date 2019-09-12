@@ -3,4 +3,4 @@ project(RuckertM_L3 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(RuckertM_L3 main.c)
+add_executable(RuckertM_L3 RuckertM_L3.c)
