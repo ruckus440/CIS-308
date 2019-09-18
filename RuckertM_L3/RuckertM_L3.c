@@ -1,7 +1,7 @@
 /*
  * Mike Ruckert
  * CIS 308 - Lab 3
- */
+*/
 
 #include <stdio.h>
 #include <string.h>

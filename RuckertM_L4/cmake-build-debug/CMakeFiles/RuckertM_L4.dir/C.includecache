@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Git/308/CIS-308/RuckertM_L4/RuckertM_L4.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+

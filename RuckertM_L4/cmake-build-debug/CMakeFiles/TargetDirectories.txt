@@ -1,0 +1,3 @@
+/cygdrive/c/Git/308/CIS-308/RuckertM_L4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Git/308/CIS-308/RuckertM_L4/cmake-build-debug/CMakeFiles/RuckertM_L4.dir
+/cygdrive/c/Git/308/CIS-308/RuckertM_L4/cmake-build-debug/CMakeFiles/edit_cache.dir
