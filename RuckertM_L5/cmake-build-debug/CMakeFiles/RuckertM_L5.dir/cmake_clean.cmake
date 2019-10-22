@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RuckertM_L5.dir/RuckertM_L5.c.o"
-  "RuckertM_L5.pdb"
   "RuckertM_L5.exe"
+  "RuckertM_L5.pdb"
   "libRuckertM_L5.dll.a"
 )
 
