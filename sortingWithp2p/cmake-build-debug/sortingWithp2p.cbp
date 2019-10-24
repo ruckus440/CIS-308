@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Git/308/CIS-308/sortingWithp2p/main.c">
+		<Unit filename="/cygdrive/c/Git/308/CIS-308/sortingWithp2p/RuckertM_L7.c">
 			<Option target="sortingWithp2p"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Git/308/CIS-308/sortingWithp2p/CMakeLists.txt">

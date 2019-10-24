@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sortingWithp2p.dir/main.c.o"
+  "CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o"
   "libsortingWithp2p.dll.a"
   "sortingWithp2p.exe"
   "sortingWithp2p.pdb"

@@ -123,32 +123,32 @@ sortingWithp2p/fast:
 	$(MAKE) -f CMakeFiles/sortingWithp2p.dir/build.make CMakeFiles/sortingWithp2p.dir/build
 .PHONY : sortingWithp2p/fast
 
-main.o: main.c.o
+RuckertM_L7.o: RuckertM_L7.c.o
 
-.PHONY : main.o
+.PHONY : RuckertM_L7.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/sortingWithp2p.dir/build.make CMakeFiles/sortingWithp2p.dir/main.c.o
-.PHONY : main.c.o
+RuckertM_L7.c.o:
+	$(MAKE) -f CMakeFiles/sortingWithp2p.dir/build.make CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o
+.PHONY : RuckertM_L7.c.o
 
-main.i: main.c.i
+RuckertM_L7.i: RuckertM_L7.c.i
 
-.PHONY : main.i
+.PHONY : RuckertM_L7.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/sortingWithp2p.dir/build.make CMakeFiles/sortingWithp2p.dir/main.c.i
-.PHONY : main.c.i
+RuckertM_L7.c.i:
+	$(MAKE) -f CMakeFiles/sortingWithp2p.dir/build.make CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.i
+.PHONY : RuckertM_L7.c.i
 
-main.s: main.c.s
+RuckertM_L7.s: RuckertM_L7.c.s
 
-.PHONY : main.s
+.PHONY : RuckertM_L7.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/sortingWithp2p.dir/build.make CMakeFiles/sortingWithp2p.dir/main.c.s
-.PHONY : main.c.s
+RuckertM_L7.c.s:
+	$(MAKE) -f CMakeFiles/sortingWithp2p.dir/build.make CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.s
+.PHONY : RuckertM_L7.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... sortingWithp2p"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... RuckertM_L7.o"
+	@echo "... RuckertM_L7.i"
+	@echo "... RuckertM_L7.s"
 .PHONY : help
 
 

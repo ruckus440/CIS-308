@@ -57,27 +57,27 @@ include CMakeFiles/sortingWithp2p.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sortingWithp2p.dir/flags.make
 
-CMakeFiles/sortingWithp2p.dir/main.c.o: CMakeFiles/sortingWithp2p.dir/flags.make
-CMakeFiles/sortingWithp2p.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/308/CIS-308/sortingWithp2p/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sortingWithp2p.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sortingWithp2p.dir/main.c.o   -c /cygdrive/c/Git/308/CIS-308/sortingWithp2p/main.c
+CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o: CMakeFiles/sortingWithp2p.dir/flags.make
+CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o: ../RuckertM_L7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/308/CIS-308/sortingWithp2p/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o   -c /cygdrive/c/Git/308/CIS-308/sortingWithp2p/RuckertM_L7.c
 
-CMakeFiles/sortingWithp2p.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sortingWithp2p.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/308/CIS-308/sortingWithp2p/main.c > CMakeFiles/sortingWithp2p.dir/main.c.i
+CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/308/CIS-308/sortingWithp2p/RuckertM_L7.c > CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.i
 
-CMakeFiles/sortingWithp2p.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sortingWithp2p.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/308/CIS-308/sortingWithp2p/main.c -o CMakeFiles/sortingWithp2p.dir/main.c.s
+CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/308/CIS-308/sortingWithp2p/RuckertM_L7.c -o CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.s
 
 # Object files for target sortingWithp2p
 sortingWithp2p_OBJECTS = \
-"CMakeFiles/sortingWithp2p.dir/main.c.o"
+"CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o"
 
 # External object files for target sortingWithp2p
 sortingWithp2p_EXTERNAL_OBJECTS =
 
-sortingWithp2p.exe: CMakeFiles/sortingWithp2p.dir/main.c.o
+sortingWithp2p.exe: CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o
 sortingWithp2p.exe: CMakeFiles/sortingWithp2p.dir/build.make
 sortingWithp2p.exe: CMakeFiles/sortingWithp2p.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Git/308/CIS-308/sortingWithp2p/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable sortingWithp2p.exe"
