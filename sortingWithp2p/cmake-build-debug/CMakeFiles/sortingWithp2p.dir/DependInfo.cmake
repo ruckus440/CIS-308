@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/c/Git/308/CIS-308/sortingWithp2p/RuckertM_L7.c" "/cygdrive/c/Git/308/CIS-308/sortingWithp2p/cmake-build-debug/CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o"
+  "/cygdrive/c/Git/CIS-308/sortingWithp2p/RuckertM_L7.c" "/cygdrive/c/Git/CIS-308/sortingWithp2p/cmake-build-debug/CMakeFiles/sortingWithp2p.dir/RuckertM_L7.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
