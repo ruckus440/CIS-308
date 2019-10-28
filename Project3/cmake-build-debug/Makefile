@@ -123,32 +123,32 @@ Project3/fast:
 	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/build
 .PHONY : Project3/fast
 
-proj3.o: proj3.c.o
+RuckertM_P3.o: RuckertM_P3.c.o
 
-.PHONY : proj3.o
+.PHONY : RuckertM_P3.o
 
 # target to build an object file
-proj3.c.o:
-	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/proj3.c.o
-.PHONY : proj3.c.o
+RuckertM_P3.c.o:
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/RuckertM_P3.c.o
+.PHONY : RuckertM_P3.c.o
 
-proj3.i: proj3.c.i
+RuckertM_P3.i: RuckertM_P3.c.i
 
-.PHONY : proj3.i
+.PHONY : RuckertM_P3.i
 
 # target to preprocess a source file
-proj3.c.i:
-	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/proj3.c.i
-.PHONY : proj3.c.i
+RuckertM_P3.c.i:
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/RuckertM_P3.c.i
+.PHONY : RuckertM_P3.c.i
 
-proj3.s: proj3.c.s
+RuckertM_P3.s: RuckertM_P3.c.s
 
-.PHONY : proj3.s
+.PHONY : RuckertM_P3.s
 
 # target to generate assembly for a file
-proj3.c.s:
-	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/proj3.c.s
-.PHONY : proj3.c.s
+RuckertM_P3.c.s:
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/RuckertM_P3.c.s
+.PHONY : RuckertM_P3.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Project3"
 	@echo "... edit_cache"
-	@echo "... proj3.o"
-	@echo "... proj3.i"
-	@echo "... proj3.s"
+	@echo "... RuckertM_P3.o"
+	@echo "... RuckertM_P3.i"
+	@echo "... RuckertM_P3.s"
 .PHONY : help
 
 

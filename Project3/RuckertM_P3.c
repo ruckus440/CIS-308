@@ -11,11 +11,12 @@
  * within the lists in ascending order.
  */
 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-/*
+/**
  * Method prototypes
  */
 void VerticalSort(int *ListArray[], int numRows, int *List);
@@ -49,22 +50,24 @@ int main(int argc, char *argv []) {
     int listLen;
     int row = 0;
 
-    /*
+    /**
      * Open the file
      */
     filename = (char *) malloc(sizeof(char) * 15);
     strcpy(filename, argv[1]);
     fp = fopen(filename, "r");
 
-    /*
+    /**
      * Get the number of lists and dynamically allocate memory accordingly
      */
     fscanf(fp, "%d", &numOfLists);
     ListArrayDPtr = malloc(numOfLists * sizeof(int*));
     ListLinePtr = malloc(numOfLists * sizeof(int));
 
-    /*
-     * 
+    /**
+     * This loops works through the file and reads the data in the list array.
+     * As it progresses it calls the HorizontalSort method to sort the values
+     * within the individual lists.
      */
     while (fgets(list, sizeof(list), fp) != NULL)
     {
@@ -79,20 +82,32 @@ int main(int argc, char *argv []) {
     }
     fclose(fp);
 
-    //sort vertical
+    /**
+     * Calls the VerticalSort method
+     */
     VerticalSort(ListArrayDPtr, numOfLists, ListLinePtr);
 
-    //print
+    /**
+     * Calls the print method for output
+     */
     Print(ListLinePtr, numOfLists, ListArrayDPtr);
 
-    //free memory
+    /**
+     * Free up memory
+     */
     free(ListArrayDPtr);
     free(ListLinePtr);
 
     return 0;
 }
 
-//sort lists
+/**
+ * This method sorts the lists in the file in ascending order
+ * according to the number of items in each list.
+ * @param ListArray
+ * @param numRows
+ * @param List
+ */
 void VerticalSort(int *ListArray[], int numRows, int *List)
 {
     int *tempPtr;
@@ -115,7 +130,11 @@ void VerticalSort(int *ListArray[], int numRows, int *List)
     }
 }
 
-//sort rows
+/**
+ * This method sorts the values in each list in ascending order.
+ * @param list
+ * @param numLists
+ */
 void HorizontalSort(int list[], int numLists)
 {
     int temp;
@@ -134,7 +153,12 @@ void HorizontalSort(int list[], int numLists)
     }
 }
 
-//print
+/**
+ * Method for printing the sorted lists.
+ * @param List
+ * @param numLists
+ * @param ListArray
+ */
 void Print(int List[], int numLists, int **ListArray)
 {
     printf("\n%d lists:\n", numLists);

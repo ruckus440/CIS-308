@@ -57,27 +57,27 @@ include CMakeFiles/Project3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Project3.dir/flags.make
 
-CMakeFiles/Project3.dir/proj3.c.o: CMakeFiles/Project3.dir/flags.make
-CMakeFiles/Project3.dir/proj3.c.o: ../proj3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/308/CIS-308/Project3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project3.dir/proj3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project3.dir/proj3.c.o   -c /cygdrive/c/Git/308/CIS-308/Project3/proj3.c
+CMakeFiles/Project3.dir/RuckertM_P3.c.o: CMakeFiles/Project3.dir/flags.make
+CMakeFiles/Project3.dir/RuckertM_P3.c.o: ../RuckertM_P3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/308/CIS-308/Project3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project3.dir/RuckertM_P3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project3.dir/RuckertM_P3.c.o   -c /cygdrive/c/Git/308/CIS-308/Project3/RuckertM_P3.c
 
-CMakeFiles/Project3.dir/proj3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project3.dir/proj3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/308/CIS-308/Project3/proj3.c > CMakeFiles/Project3.dir/proj3.c.i
+CMakeFiles/Project3.dir/RuckertM_P3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project3.dir/RuckertM_P3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/308/CIS-308/Project3/RuckertM_P3.c > CMakeFiles/Project3.dir/RuckertM_P3.c.i
 
-CMakeFiles/Project3.dir/proj3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project3.dir/proj3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/308/CIS-308/Project3/proj3.c -o CMakeFiles/Project3.dir/proj3.c.s
+CMakeFiles/Project3.dir/RuckertM_P3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project3.dir/RuckertM_P3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/308/CIS-308/Project3/RuckertM_P3.c -o CMakeFiles/Project3.dir/RuckertM_P3.c.s
 
 # Object files for target Project3
 Project3_OBJECTS = \
-"CMakeFiles/Project3.dir/proj3.c.o"
+"CMakeFiles/Project3.dir/RuckertM_P3.c.o"
 
 # External object files for target Project3
 Project3_EXTERNAL_OBJECTS =
 
-Project3.exe: CMakeFiles/Project3.dir/proj3.c.o
+Project3.exe: CMakeFiles/Project3.dir/RuckertM_P3.c.o
 Project3.exe: CMakeFiles/Project3.dir/build.make
 Project3.exe: CMakeFiles/Project3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Git/308/CIS-308/Project3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Project3.exe"

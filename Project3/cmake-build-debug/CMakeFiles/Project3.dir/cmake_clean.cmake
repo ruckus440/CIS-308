@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Project3.dir/proj3.c.o"
+  "CMakeFiles/Project3.dir/RuckertM_P3.c.o"
   "Project3.exe"
   "Project3.pdb"
   "libProject3.dll.a"

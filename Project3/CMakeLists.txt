@@ -3,4 +3,4 @@ project(Project3 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Project3 proj3.c)
+add_executable(Project3 RuckertM_P3.c)
