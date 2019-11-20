@@ -31,11 +31,6 @@ int main() {
     printArray(array2, 7);
     stringsort(array2, 7, numstrcmp);
     printArray(array2, 7);
-
-
-
-
-
     return 0;
 }
 
@@ -76,7 +71,6 @@ void stringsort(char * strings[], int nstrings, int (*cmpfun)())
                 didswap = 1;
             }
         }
-
     } while(didswap);
 }
 
@@ -106,7 +100,6 @@ int dictstrcmp(char * str1, char *str2)
         }
     }
 }
-
 
 void printArray(char * array[], int size)
 {

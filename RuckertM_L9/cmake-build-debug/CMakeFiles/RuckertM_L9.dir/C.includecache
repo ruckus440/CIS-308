@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Git/308/CIS-308/RuckertM_L9/Shape.h
+stdio.h
+-
+
+/cygdrive/c/Git/308/CIS-308/RuckertM_L9/Square.h
+
+/cygdrive/c/Git/308/CIS-308/RuckertM_L9/Triangle.h
+
+/cygdrive/c/Git/308/CIS-308/RuckertM_L9/main.c
+stdio.h
+-
+Shape.h
+/cygdrive/c/Git/308/CIS-308/RuckertM_L9/Shape.h
+Square.h
+/cygdrive/c/Git/308/CIS-308/RuckertM_L9/Square.h
+Triangle.h
+/cygdrive/c/Git/308/CIS-308/RuckertM_L9/Triangle.h
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Git/308/CIS-308/inclassProj/Employee.c
+Employee.h
+/cygdrive/c/Git/308/CIS-308/inclassProj/Employee.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/cygdrive/c/Git/308/CIS-308/inclassProj/Employee.h
+person.h
+/cygdrive/c/Git/308/CIS-308/inclassProj/person.h
+
+/cygdrive/c/Git/308/CIS-308/inclassProj/person.h
+

@@ -1,0 +1,4 @@
+C:\Users\mwruc\.CLion2019.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Git/308/CIS-308/RuckertM_L9
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Git/308/CIS-308/RuckertM_L9/cmake-build-debug

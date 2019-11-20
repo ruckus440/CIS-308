@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/inclassProj.dir/main.c.o CMakeFiles/inclassProj.dir/person.c.o CMakeFiles/inclassProj.dir/Employee.c.o  -o inclassProj.exe -Wl,--out-implib,libinclassProj.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
