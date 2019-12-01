@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/mwruc/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/Mike/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/mwruc/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/Mike/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Git/308/CIS-308/Project2
+CMAKE_SOURCE_DIR = /cygdrive/c/Git/CIS-308/Project2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Git/308/CIS-308/Project2/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Git/CIS-308/Project2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Project2.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/Project2.dir/flags.make
 
 CMakeFiles/Project2.dir/proj2.c.o: CMakeFiles/Project2.dir/flags.make
 CMakeFiles/Project2.dir/proj2.c.o: ../proj2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/308/CIS-308/Project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project2.dir/proj2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project2.dir/proj2.c.o   -c /cygdrive/c/Git/308/CIS-308/Project2/proj2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/CIS-308/Project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project2.dir/proj2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project2.dir/proj2.c.o   -c /cygdrive/c/Git/CIS-308/Project2/proj2.c
 
 CMakeFiles/Project2.dir/proj2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project2.dir/proj2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/308/CIS-308/Project2/proj2.c > CMakeFiles/Project2.dir/proj2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/CIS-308/Project2/proj2.c > CMakeFiles/Project2.dir/proj2.c.i
 
 CMakeFiles/Project2.dir/proj2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project2.dir/proj2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/308/CIS-308/Project2/proj2.c -o CMakeFiles/Project2.dir/proj2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/CIS-308/Project2/proj2.c -o CMakeFiles/Project2.dir/proj2.c.s
 
 CMakeFiles/Project2.dir/bst.c.o: CMakeFiles/Project2.dir/flags.make
 CMakeFiles/Project2.dir/bst.c.o: ../bst.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/308/CIS-308/Project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Project2.dir/bst.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project2.dir/bst.c.o   -c /cygdrive/c/Git/308/CIS-308/Project2/bst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/CIS-308/Project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Project2.dir/bst.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project2.dir/bst.c.o   -c /cygdrive/c/Git/CIS-308/Project2/bst.c
 
 CMakeFiles/Project2.dir/bst.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project2.dir/bst.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/308/CIS-308/Project2/bst.c > CMakeFiles/Project2.dir/bst.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/CIS-308/Project2/bst.c > CMakeFiles/Project2.dir/bst.c.i
 
 CMakeFiles/Project2.dir/bst.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project2.dir/bst.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/308/CIS-308/Project2/bst.c -o CMakeFiles/Project2.dir/bst.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/CIS-308/Project2/bst.c -o CMakeFiles/Project2.dir/bst.c.s
 
 CMakeFiles/Project2.dir/io.c.o: CMakeFiles/Project2.dir/flags.make
 CMakeFiles/Project2.dir/io.c.o: ../io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/308/CIS-308/Project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Project2.dir/io.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project2.dir/io.c.o   -c /cygdrive/c/Git/308/CIS-308/Project2/io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/CIS-308/Project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Project2.dir/io.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project2.dir/io.c.o   -c /cygdrive/c/Git/CIS-308/Project2/io.c
 
 CMakeFiles/Project2.dir/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project2.dir/io.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/308/CIS-308/Project2/io.c > CMakeFiles/Project2.dir/io.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/CIS-308/Project2/io.c > CMakeFiles/Project2.dir/io.c.i
 
 CMakeFiles/Project2.dir/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project2.dir/io.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/308/CIS-308/Project2/io.c -o CMakeFiles/Project2.dir/io.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/CIS-308/Project2/io.c -o CMakeFiles/Project2.dir/io.c.s
 
 # Object files for target Project2
 Project2_OBJECTS = \
@@ -110,7 +110,7 @@ Project2.exe: CMakeFiles/Project2.dir/bst.c.o
 Project2.exe: CMakeFiles/Project2.dir/io.c.o
 Project2.exe: CMakeFiles/Project2.dir/build.make
 Project2.exe: CMakeFiles/Project2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Git/308/CIS-308/Project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Project2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Git/CIS-308/Project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Project2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/Project2.dir/clean:
 .PHONY : CMakeFiles/Project2.dir/clean
 
 CMakeFiles/Project2.dir/depend:
-	cd /cygdrive/c/Git/308/CIS-308/Project2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Git/308/CIS-308/Project2 /cygdrive/c/Git/308/CIS-308/Project2 /cygdrive/c/Git/308/CIS-308/Project2/cmake-build-debug /cygdrive/c/Git/308/CIS-308/Project2/cmake-build-debug /cygdrive/c/Git/308/CIS-308/Project2/cmake-build-debug/CMakeFiles/Project2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Git/CIS-308/Project2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Git/CIS-308/Project2 /cygdrive/c/Git/CIS-308/Project2 /cygdrive/c/Git/CIS-308/Project2/cmake-build-debug /cygdrive/c/Git/CIS-308/Project2/cmake-build-debug /cygdrive/c/Git/CIS-308/Project2/cmake-build-debug/CMakeFiles/Project2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Project2.dir/depend
 
