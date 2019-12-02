@@ -1,6 +1,6 @@
 /**********************************************
 * Name: Mike Ruckert *
-* Date: 10/6/2019 *
+* Date: 12/1/2019 *
 * Assignment: Project 2 - Binary Search Tree *
 ***********************************************
 * This program builds a binary search tree to

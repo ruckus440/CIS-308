@@ -1,7 +1,3 @@
-//
-// Created by Mike on 12/1/2019.
-//
-
 #ifndef PROJECT4_IO_H
 #define PROJECT4_IO_H
 

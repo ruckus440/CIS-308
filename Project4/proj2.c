@@ -1,6 +1,6 @@
 /**********************************************
 * Name: Mike Ruckert *
-* Date: 10/6/2019 *
+* Date: 12/1/2019 *
 * Assignment: Project 2 - Binary Search Tree *
 ***********************************************
 * This program builds a binary search tree to
@@ -29,7 +29,8 @@
 * Output: The program inserts or searches for a
  * number in the binary search tree depending on
  * user input.  It uses in-order traversal to print
- * the contents of the tree.
+ * the contents of the tree.  I allows the user to
+ * delete a node from the tree.
 ***********************************************/
 int main() {
 
