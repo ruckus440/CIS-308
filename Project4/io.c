@@ -97,7 +97,7 @@ void traversePrint(char *output)
 int deleteInput()
 {
     int input;
-    printf("Enter a number to delete from the tree: ");
+    printf("Enter a number to delete: ");
     scanf("%d", &input);
     return input;
 }
@@ -116,5 +116,5 @@ void deleteSuccess(int num)
  */
 void freeMessage(Node * node)
 {
-    printf("Freeing memory for node %d\n", node->key);
+    printf("Freeing node %d\n", node->key);
 }

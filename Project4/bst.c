@@ -50,6 +50,7 @@ Node * newNode(int key)
  */
 Node * insert(Node * node, int key)
 {
+
     if ((node->key == 0 || node->key == NULL) && key != 0)
     {
         node->key = key;
@@ -60,7 +61,6 @@ Node * insert(Node * node, int key)
     {
         return node;
     }
-
     else if (key > node->key)
     {
         if (node->rightChild == NULL)
@@ -73,7 +73,6 @@ Node * insert(Node * node, int key)
             insert(node->rightChild, key);
         }
     }
-
     else
     {
         if (node->leftChild == NULL)
@@ -161,7 +160,6 @@ Node * delete(Node * node, int key)
     {
         return node;
     }
-    //deleteSuccess(node);
     if (key < node->key)
     {
         node->leftChild = delete(node->leftChild, key);
@@ -187,7 +185,9 @@ Node * delete(Node * node, int key)
         Node * temp = minKey(node);
         node->key = temp->key;
         node->rightChild = delete(node->rightChild, temp->key);
+        delete(temp, NULL);
     }
+    return node;
 }
 
 /**

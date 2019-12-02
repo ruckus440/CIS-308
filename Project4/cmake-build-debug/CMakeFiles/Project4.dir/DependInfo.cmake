@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/c/Git/CIS-308/Project4/bst.c" "/cygdrive/c/Git/CIS-308/Project4/cmake-build-debug/CMakeFiles/Project4.dir/bst.c.o"
   "/cygdrive/c/Git/CIS-308/Project4/io.c" "/cygdrive/c/Git/CIS-308/Project4/cmake-build-debug/CMakeFiles/Project4.dir/io.c.o"
-  "/cygdrive/c/Git/CIS-308/Project4/proj2.c" "/cygdrive/c/Git/CIS-308/Project4/cmake-build-debug/CMakeFiles/Project4.dir/proj2.c.o"
+  "/cygdrive/c/Git/CIS-308/Project4/proj4.c" "/cygdrive/c/Git/CIS-308/Project4/cmake-build-debug/CMakeFiles/Project4.dir/proj4.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

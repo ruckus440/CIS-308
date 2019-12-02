@@ -177,32 +177,32 @@ io.c.s:
 	$(MAKE) -f CMakeFiles/Project4.dir/build.make CMakeFiles/Project4.dir/io.c.s
 .PHONY : io.c.s
 
-proj2.o: proj2.c.o
+proj4.o: proj4.c.o
 
-.PHONY : proj2.o
+.PHONY : proj4.o
 
 # target to build an object file
-proj2.c.o:
-	$(MAKE) -f CMakeFiles/Project4.dir/build.make CMakeFiles/Project4.dir/proj2.c.o
-.PHONY : proj2.c.o
+proj4.c.o:
+	$(MAKE) -f CMakeFiles/Project4.dir/build.make CMakeFiles/Project4.dir/proj4.c.o
+.PHONY : proj4.c.o
 
-proj2.i: proj2.c.i
+proj4.i: proj4.c.i
 
-.PHONY : proj2.i
+.PHONY : proj4.i
 
 # target to preprocess a source file
-proj2.c.i:
-	$(MAKE) -f CMakeFiles/Project4.dir/build.make CMakeFiles/Project4.dir/proj2.c.i
-.PHONY : proj2.c.i
+proj4.c.i:
+	$(MAKE) -f CMakeFiles/Project4.dir/build.make CMakeFiles/Project4.dir/proj4.c.i
+.PHONY : proj4.c.i
 
-proj2.s: proj2.c.s
+proj4.s: proj4.c.s
 
-.PHONY : proj2.s
+.PHONY : proj4.s
 
 # target to generate assembly for a file
-proj2.c.s:
-	$(MAKE) -f CMakeFiles/Project4.dir/build.make CMakeFiles/Project4.dir/proj2.c.s
-.PHONY : proj2.c.s
+proj4.c.s:
+	$(MAKE) -f CMakeFiles/Project4.dir/build.make CMakeFiles/Project4.dir/proj4.c.s
+.PHONY : proj4.c.s
 
 # Help Target
 help:
@@ -219,9 +219,9 @@ help:
 	@echo "... io.o"
 	@echo "... io.i"
 	@echo "... io.s"
-	@echo "... proj2.o"
-	@echo "... proj2.i"
-	@echo "... proj2.s"
+	@echo "... proj4.o"
+	@echo "... proj4.i"
+	@echo "... proj4.s"
 .PHONY : help
 
 

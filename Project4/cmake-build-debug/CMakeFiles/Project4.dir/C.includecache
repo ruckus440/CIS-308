@@ -14,18 +14,6 @@ stdlib.h
 string.h
 -
 
-/cygdrive/c/Git/CIS-308/Project4/io.c
-string.h
--
-stdio.h
--
-stdlib.h
--
-io.h
-/cygdrive/c/Git/CIS-308/Project4/io.h
-bst.h
-/cygdrive/c/Git/CIS-308/Project4/bst.h
-
 /cygdrive/c/Git/CIS-308/Project4/io.h
 stdbool.h
 -
@@ -33,6 +21,14 @@ stdio.h
 -
 string.h
 -
+bst.h
+/cygdrive/c/Git/CIS-308/Project4/bst.h
+
+/cygdrive/c/Git/CIS-308/Project4/proj4.c
+stdio.h
+-
+io.h
+/cygdrive/c/Git/CIS-308/Project4/io.h
 bst.h
 /cygdrive/c/Git/CIS-308/Project4/bst.h
 

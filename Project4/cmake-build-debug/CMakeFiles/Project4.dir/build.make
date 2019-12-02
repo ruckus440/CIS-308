@@ -57,18 +57,18 @@ include CMakeFiles/Project4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Project4.dir/flags.make
 
-CMakeFiles/Project4.dir/proj2.c.o: CMakeFiles/Project4.dir/flags.make
-CMakeFiles/Project4.dir/proj2.c.o: ../proj2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/CIS-308/Project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project4.dir/proj2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project4.dir/proj2.c.o   -c /cygdrive/c/Git/CIS-308/Project4/proj2.c
+CMakeFiles/Project4.dir/proj4.c.o: CMakeFiles/Project4.dir/flags.make
+CMakeFiles/Project4.dir/proj4.c.o: ../proj4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Git/CIS-308/Project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project4.dir/proj4.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Project4.dir/proj4.c.o   -c /cygdrive/c/Git/CIS-308/Project4/proj4.c
 
-CMakeFiles/Project4.dir/proj2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project4.dir/proj2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/CIS-308/Project4/proj2.c > CMakeFiles/Project4.dir/proj2.c.i
+CMakeFiles/Project4.dir/proj4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project4.dir/proj4.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Git/CIS-308/Project4/proj4.c > CMakeFiles/Project4.dir/proj4.c.i
 
-CMakeFiles/Project4.dir/proj2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project4.dir/proj2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/CIS-308/Project4/proj2.c -o CMakeFiles/Project4.dir/proj2.c.s
+CMakeFiles/Project4.dir/proj4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project4.dir/proj4.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Git/CIS-308/Project4/proj4.c -o CMakeFiles/Project4.dir/proj4.c.s
 
 CMakeFiles/Project4.dir/bst.c.o: CMakeFiles/Project4.dir/flags.make
 CMakeFiles/Project4.dir/bst.c.o: ../bst.c
@@ -98,14 +98,14 @@ CMakeFiles/Project4.dir/io.c.s: cmake_force
 
 # Object files for target Project4
 Project4_OBJECTS = \
-"CMakeFiles/Project4.dir/proj2.c.o" \
+"CMakeFiles/Project4.dir/proj4.c.o" \
 "CMakeFiles/Project4.dir/bst.c.o" \
 "CMakeFiles/Project4.dir/io.c.o"
 
 # External object files for target Project4
 Project4_EXTERNAL_OBJECTS =
 
-Project4.exe: CMakeFiles/Project4.dir/proj2.c.o
+Project4.exe: CMakeFiles/Project4.dir/proj4.c.o
 Project4.exe: CMakeFiles/Project4.dir/bst.c.o
 Project4.exe: CMakeFiles/Project4.dir/io.c.o
 Project4.exe: CMakeFiles/Project4.dir/build.make

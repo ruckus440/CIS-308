@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Project4.dir/bst.c.o"
   "CMakeFiles/Project4.dir/io.c.o"
-  "CMakeFiles/Project4.dir/proj2.c.o"
+  "CMakeFiles/Project4.dir/proj4.c.o"
   "Project4.exe"
   "Project4.pdb"
   "libProject4.dll.a"

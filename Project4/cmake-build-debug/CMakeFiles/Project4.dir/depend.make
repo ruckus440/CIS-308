@@ -9,7 +9,7 @@ CMakeFiles/Project4.dir/io.c.o: ../bst.h
 CMakeFiles/Project4.dir/io.c.o: ../io.c
 CMakeFiles/Project4.dir/io.c.o: ../io.h
 
-CMakeFiles/Project4.dir/proj2.c.o: ../bst.h
-CMakeFiles/Project4.dir/proj2.c.o: ../io.h
-CMakeFiles/Project4.dir/proj2.c.o: ../proj2.c
+CMakeFiles/Project4.dir/proj4.c.o: ../bst.h
+CMakeFiles/Project4.dir/proj4.c.o: ../io.h
+CMakeFiles/Project4.dir/proj4.c.o: ../proj4.c
 
