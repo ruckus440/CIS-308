@@ -5,6 +5,7 @@ CMakeFiles/Project4.dir/bst.c.o: ../bst.c
 CMakeFiles/Project4.dir/bst.c.o: ../bst.h
 CMakeFiles/Project4.dir/bst.c.o: ../io.h
 
+CMakeFiles/Project4.dir/io.c.o: ../bst.h
 CMakeFiles/Project4.dir/io.c.o: ../io.c
 CMakeFiles/Project4.dir/io.c.o: ../io.h
 

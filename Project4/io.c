@@ -11,7 +11,16 @@
 
 #include <string.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "io.h"
+#include "bst.h"
+
+typedef struct bstNode
+{
+    int key;
+    struct bstNode * leftChild;
+    struct bstNode * rightChild;
+} Node;
 
 /**
  * Presents the user with the main menu for the program
@@ -81,6 +90,10 @@ void traversePrint(char *output)
     printf("%s ", output);
 }
 
+/**
+ * Takes an integer from the user to delete from the binary search tree.
+ * @return
+ */
 int deleteInput()
 {
     int input;
@@ -89,7 +102,19 @@ int deleteInput()
     return input;
 }
 
-void deleteSuccess()
+/**
+ * Prints a message when deleting a node.
+ */
+void deleteSuccess(int num)
 {
-    printf("Node deleted.\n");
+    printf("Deleting node %d\n", num);
+}
+
+/**
+ * Prints a message when freeing memory for the search tree.
+ * @param node
+ */
+void freeMessage(Node * node)
+{
+    printf("Freeing memory for node %d\n", node->key);
 }

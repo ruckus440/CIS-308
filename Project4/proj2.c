@@ -64,8 +64,8 @@ int main() {
         if (input == 'd')
         {
             num = deleteInput();
+            deleteSuccess(num);
             root = delete(root, num);
-            deleteSuccess();
         }
 
         if (input == 'q')

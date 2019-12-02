@@ -141,6 +141,7 @@ void freeMemory(Node * node)
     {
         return;
     }
+    freeMessage(node);
     freeMemory(node->rightChild);
     freeMemory(node->leftChild);
     free(node);
@@ -160,6 +161,7 @@ Node * delete(Node * node, int key)
     {
         return node;
     }
+    //deleteSuccess(node);
     if (key < node->key)
     {
         node->leftChild = delete(node->leftChild, key);
